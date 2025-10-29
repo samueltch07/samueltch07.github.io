@@ -1,19 +1,54 @@
+/* Page colors/fonts – keep your choices */
 body {
-    background: darkgray;
-    font-family: Arial, Helvetica, sans-serif;
+  background: darkgray;                 /* your background */
+  font-family: Arial, Helvetica, sans-serif;
 }
+
 h1 {
-    color: red;
-    text-align: center;
+  color: red;                           /* your h1 color */
+  text-align: center;
 }
-.projects { 
-    display:flex;
-    flex-wrap:wrap; 
-} 
+
+/* Make the project “blobs” flow side-by-side like his */
+.projects {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+/* Ensure the section header sits on its own full row */
+.projects h2 {
+  width: 100%;
+}
+
+/* Blob/card styling */
 .project {
-    width: 30%;
-    margin: 10px;
-    padding: 20px 10px;
-    background: orange; /* pick a color */
-    border-radius: 25%;
+  width: 30%;
+  margin: 10px;
+  padding: 20px 10px;
+  background: orange;                   /* your card color */
+  border-radius: 25%;
+}
+
+/* Pull the h3 away from the left wall (like his) */
+.project h3 {
+  margin-left: 50px;
+}
+
+/* Image sizing/centering to match his layout */
+.project img {
+  width: 400px;                         /* same as his */
+  height: 300px;
+  margin: 10px auto;
+  border: 2px solid navy;
+  display: block;                       /* centers with margin auto */
+  text-align: center;
+  /* optional: keep images from overflowing on small screens */
+  max-width: 100%;
+  height: auto;
+}
+
+/* Center the paragraph under each blob */
+.project p {
+  text-align: center;
+  margin: 15px;
 }
