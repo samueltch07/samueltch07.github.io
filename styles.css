@@ -11,7 +11,7 @@ h1 {
 	display:flex; 
 	flex-wrap:wrap;  
 } 
-.projects h2 {
+.projects h2 { 
     /* display the h2 on its own line, not with the section blobs */
 	width: 100%;
 }
