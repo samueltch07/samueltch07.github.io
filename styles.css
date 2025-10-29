@@ -25,18 +25,18 @@ h1 {
   width: 30%;
   margin: 10px;
   padding: 20px 10px;
-  background: orange;                   /* your card color */
+  background: orange;                   
   border-radius: 25%;
 }
 
-/* Pull the h3 away from the left wall (like his) */
+
 .project h3 {
   margin-left: 50px;
 }
 
-/* Image sizing/centering to match his layout */
+/* Image sizing/
 .project img {
-  width: 400px;                         /* same as his */
+  width: 400px;                         
   height: 300px;
   margin: 10px auto;
   border: 2px solid navy;
